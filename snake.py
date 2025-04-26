@@ -1,6 +1,7 @@
 # snake.py
 import pygame
 import random
+import sys
 
 class SnakeGame:
     def __init__(self, screen):
