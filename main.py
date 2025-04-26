@@ -1,7 +1,7 @@
 # main.py
 import pygame
 import sys
-from snake import SnakeGame  # we'll write this next
+from snake import SnakeGame  
 
 # --- Game Manager / Menu Shell ---
 class GameManager:
