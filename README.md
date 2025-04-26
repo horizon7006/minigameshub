@@ -11,6 +11,6 @@ git clone https://github.com/horizon7006/minigameshub.git
 
 cd minigameshub
 
-4. Then, run it. (Make sure you have Python and pygame installed.)
+3. Then, run it. (Make sure you have Python and pygame installed.)
 
 python3 main.py
