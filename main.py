@@ -4,6 +4,7 @@ import sys
 from snake import SnakeGame 
 from tetris import TetrisGame
 from pong import PongGame
+from pong_ai import PongGameAI
 
 # --- Game Manager / Menu Shell ---
 class GameManager:
@@ -17,6 +18,7 @@ class GameManager:
             "Snake": SnakeGame(self.screen),
             "Tetris": TetrisGame(self.screen),
             "Pong": PongGame(self.screen),
+            "Pong AI": PongGameAI(self.screen),
         }
         self.font = pygame.font.SysFont(None, 48)
         self.selected = 0
