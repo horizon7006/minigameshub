@@ -1,1 +1,1 @@
-# minigameshub
+# Mini Games Hub
