@@ -8,7 +8,9 @@ Welcome to MGH! An app where you can play classic games like Snake!
 git clone https://github.com/horizon7006/minigameshub.git
 
 2. Then, go into that exact folder.
+
 cd minigameshub
 
-3. Then, run it. (Make sure you have Python and pygame installed.)
+4. Then, run it. (Make sure you have Python and pygame installed.)
+
 python3 main.py
