@@ -1,7 +1,8 @@
 # main.py
 import pygame
 import sys
-from snake import SnakeGame  
+from snake import SnakeGame 
+from tetris import TetrisGame
 
 # --- Game Manager / Menu Shell ---
 class GameManager:
@@ -13,7 +14,7 @@ class GameManager:
         # register your games here
         self.games = {
             "Snake": SnakeGame(self.screen),
-            # "Tetris": TetrisGame(self.screen),
+            "Tetris": TetrisGame(self.screen),
             # "Pong": PongGame(self.screen),
         }
         self.font = pygame.font.SysFont(None, 48)
